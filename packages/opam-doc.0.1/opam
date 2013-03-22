@@ -1,0 +1,6 @@
+opam-version: "1"
+maintainer: "lpw25@cam.ac.uk"
+build: [
+  ["./build.sh"]
+]
+depends:["obuild" "cow"]
