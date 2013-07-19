@@ -1,0 +1,14 @@
+opam-version: "1"
+maintainer: "Leo White <leo@lpw25.net>"
+authors: ["Leo White <leo@lpw25.net>"]
+tags: [ "async" "graphics" ]
+license: "LGPL-2.0 with OCaml linking exception"
+build: [
+  ["ocamlbuild" "-use-ocamlfind" "async_graphics.cma"]
+  ["ocamlbuild" "-use-ocamlfind" "async_graphics.cmxa"]
+  ["ocamlfind" "install" "async_graphics" "META" "async_graphics.mli" "_build/async_graphics.cmi" "_build/async_graphics.cma" "_build/async_graphics.cmxa"]
+]
+remove: [
+  ["ocamlfind" "remove" "async_graphics"]
+]
+depends: ["ocamlfind" "async"]
