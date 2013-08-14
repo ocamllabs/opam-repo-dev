@@ -1,6 +1,7 @@
 opam-version: "1"
 maintainer: "lpw25@cam.ac.uk"
 build: [
-  ["./build.sh"]
+  [make "all"]
+  [make "install" "BINDIR=%{bin}%"]
 ]
 depends:["obuild" "cow"]

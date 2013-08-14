@@ -1,0 +1,9 @@
+opam-version: "1"
+version: "4.01.0"
+src: "https://github.com/ocaml/ocaml/archive/4.01.tar.gz"
+patches: ["http://www.cl.cam.ac.uk/~lpw25/bin-doc.diff"]
+make: [ "world" "opt" "opt.opt" ]
+packages : [ "base-unix" "base-bigarray" "base-threads" ]
+env: [
+  [ CAML_LD_LIBRARY_PATH = "%{lib}%/stublibs" ]
+]
