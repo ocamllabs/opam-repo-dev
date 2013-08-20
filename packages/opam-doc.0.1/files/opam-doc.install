@@ -1,3 +1,0 @@
-bin: [
-   "dist/build/opamdoc/opamdoc" {"opam-doc"} 
-]

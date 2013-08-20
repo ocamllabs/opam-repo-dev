@@ -4,4 +4,4 @@ build: [
   [make "all"]
   [make "install" "BINDIR=%{bin}%"]
 ]
-depends:["obuild" "cow"]
+depends:["cow"]
