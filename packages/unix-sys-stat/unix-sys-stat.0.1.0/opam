@@ -1,0 +1,15 @@
+opam-version: "1"
+maintainer: "sheets@alum.mit.edu"
+authors: [
+  "David Sheets"
+]
+homepage: "https://github.com/dsheets/ocaml-unix-sys-stat"
+license: "ISC"
+tags: [
+]
+build: [
+  [make "build"]
+  [make "install"]
+]
+remove: [[make "uninstall"]]
+depends: ["ocamlfind"]
