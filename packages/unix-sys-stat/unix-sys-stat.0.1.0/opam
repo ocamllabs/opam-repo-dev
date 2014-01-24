@@ -13,3 +13,4 @@ build: [
 ]
 remove: [[make "uninstall"]]
 depends: ["ocamlfind"]
+depopts: ["ctypes"]
