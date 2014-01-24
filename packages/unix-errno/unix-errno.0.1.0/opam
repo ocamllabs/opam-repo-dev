@@ -3,7 +3,7 @@ maintainer: "sheets@alum.mit.edu"
 authors: [
   "David Sheets"
 ]
-homepage: "https://github.com/dsheets/ocaml-unix-fcntl"
+homepage: "https://github.com/dsheets/ocaml-unix-errno"
 license: "ISC"
 tags: [
 ]

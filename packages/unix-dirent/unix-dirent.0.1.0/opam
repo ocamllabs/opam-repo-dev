@@ -3,7 +3,7 @@ maintainer: "sheets@alum.mit.edu"
 authors: [
   "David Sheets"
 ]
-homepage: "https://github.com/dsheets/ocaml-unix-errno"
+homepage: "https://github.com/dsheets/ocaml-unix-dirent"
 license: "ISC"
 tags: [
 ]
