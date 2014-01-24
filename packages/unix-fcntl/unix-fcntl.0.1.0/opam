@@ -14,3 +14,4 @@ build: [
 remove: [[make "uninstall"]]
 depends: ["ocamlfind"]
 depopts: ["ctypes"]
+ocaml-version: [>= "4.01.0"]
