@@ -12,5 +12,5 @@ build: [
   [make "install"]
 ]
 remove: [[make "uninstall"]]
-depends: ["ocamlfind"]
-depopts: ["ctypes"]
+depends: ["ocamlfind" "base-unix"]
+depopts: [("ctypes" & "fd-send-recv")]
