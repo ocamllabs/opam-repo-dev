@@ -1,0 +1,19 @@
+opam-version: "1"
+homepage: "https://bitbucket.org/Peter_Sewell/lem"
+build-env: [
+  [BUILD_DIR = "%{lib}%/lem"]
+]
+patches: ["Makefile.patch"]
+build: [
+  [make "-e"]
+  [make "ocaml-libs"]
+  [make "coq-libs"] {"%{coq:installed}%"}
+  ["./generate_install_manifest.sh"]
+  ["./ocamlfind_install.sh"]
+]
+depends: [
+  "ocamlfind"
+]
+depopts: [
+  "coq"
+]
