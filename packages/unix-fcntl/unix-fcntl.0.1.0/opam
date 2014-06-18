@@ -13,5 +13,5 @@ build: [
 ]
 remove: [[make "uninstall"]]
 depends: ["ocamlfind" "base-unix"]
-depopts: [("ctypes" & "fd-send-recv")]
+depopts: [("ctypes" & "fd-send-recv" & "unix-sys-stat")]
 ocaml-version: [>= "4.01.0"]
