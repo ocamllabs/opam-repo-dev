@@ -20,5 +20,6 @@ depends: [
   "unix-unistd"
   "unix-fcntl"
   "fd-send-recv"
+  "stringext"
   "ctypes"
 ]
