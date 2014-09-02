@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.02.0"
-src: "https://github.com/ocamllabs/ocaml/archive/modular-implicits-testing.tar.gz"
+src: "https://github.com/ocamllabs/ocaml/archive/modular-implicits.tar.gz"
 build: [
   ["./configure" "-prefix" "%{prefix}%"]
   ["%{make}%" "world"]
