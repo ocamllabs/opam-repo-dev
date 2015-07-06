@@ -1,15 +1,20 @@
-opam-version: "1"
-maintainer: "sheets@alum.mit.edu"
-authors: [
-  "David Sheets"
+opam-version: "1.2"
+maintainer:   "sheets@alum.mit.edu"
+authors:      ["David Sheets"]
+homepage:     "https://github.com/dsheets/ocaml-unix-dirent"
+bug-reports:  "https://github.com/dsheets/ocaml-unix-dirent/issues"
+dev-repo:     "https://github.com/dsheets/ocaml-unix-dirent.git"
+license:      "ISC"
+
+build: [make "build"]
+install: [make "install"]
+remove: [make "uninstall"]
+
+depends: [
+  "ocamlfind" {test}
+  "ctypes"    {<"0.4"}
+  "sexplib"
+  "type_conv"
+  "comparelib"
+  "bin_prot"
 ]
-homepage: "https://github.com/dsheets/ocaml-unix-dirent"
-license: "ISC"
-tags: [
-]
-build: [
-  [make "build"]
-  [make "install"]
-]
-remove: [[make "uninstall"]]
-depends: ["ocamlfind"]
