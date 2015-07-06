@@ -12,7 +12,7 @@ remove: [make "uninstall"]
 
 depends: [
   "ocamlfind" {test}
-  "ctypes"    {<"0.4"}
+  "ctypes"    {= "0.3.4"}
   "sexplib"
   "type_conv"
   "comparelib"
