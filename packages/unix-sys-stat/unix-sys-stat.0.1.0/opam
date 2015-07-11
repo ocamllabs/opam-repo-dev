@@ -14,3 +14,7 @@ build: [
 remove: [[make "uninstall"]]
 depends: ["ocamlfind" "base-unix"]
 depopts: [("ctypes" & "fd-send-recv")]
+conflicts: [
+  "ctypes" {< "0.3.4"}
+  "ctypes" {> "0.3.4"}
+]
