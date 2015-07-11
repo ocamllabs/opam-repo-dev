@@ -5,5 +5,5 @@ depends: [
   "irmin" {>= "0.9.7"}
   "profuse"
   "unix-sys-stat"
-  "lwt"
+  "lwt" {< "2.5.0"}
 ]
