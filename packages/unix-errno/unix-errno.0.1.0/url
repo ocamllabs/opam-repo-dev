@@ -1,1 +1,2 @@
-git: "git://github.com/dsheets/ocaml-unix-errno"
+http: "https://github.com/dsheets/ocaml-unix-errno/archive/0.1.0.tar.gz"
+checksum: "f3b9be938b352cbd8acb2b372d2d52eb"
