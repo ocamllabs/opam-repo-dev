@@ -1,1 +1,2 @@
-git: "git://github.com/dsheets/ocaml-unix-fcntl"
+http: "https://github.com/dsheets/ocaml-unix-fcntl/archive/0.1.0.tar.gz"
+checksum: "485a3ee81e3850f2fa42fb3bd8dc83b8"
