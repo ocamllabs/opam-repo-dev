@@ -20,7 +20,7 @@ depends: [
   "unix-sys-stat"
   "unix-dirent"
   "unix-unistd"
-  "unix-fcntl"
+  "unix-fcntl" {< "0.2.0"}
   "fd-send-recv"
   "stringext"
   "ctypes" {= "0.3.4"}
