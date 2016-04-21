@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.03.0"
-src: "https://github.com/kayceesrk/ocaml/archive/effects.tar.gz"
+src: "https://github.com/ocamllabs/ocaml-effects/archive/master.zip"
 build: [
   ["./configure" "-prefix" "%{prefix}%"]
   ["%{make}%" "world"]
