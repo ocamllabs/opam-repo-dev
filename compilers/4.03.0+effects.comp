@@ -3,7 +3,7 @@ version: "4.03.0"
 src: "https://github.com/ocamllabs/ocaml-effects/archive/master.zip"
 build: [
   ["./configure" "-prefix" "%{prefix}%"]
-  ["%{make}%" "world"]
+  ["%{make}%" "world.opt"]
   ["%{make}%" "install"]
 ]
 packages: ["base-unix" "base-bigarray" "base-threads"]
